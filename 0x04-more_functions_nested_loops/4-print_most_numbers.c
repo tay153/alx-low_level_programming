@@ -5,10 +5,10 @@
  */
 void print_most_numbers(void)
 {
-	int i = 0;
+	int i = 48;
 
-	if (i != '2' && i != '4' && i <= '9')
-		_putchar(i);
+	if (i != 49 && i != 51 && i <= 57)
+		_putchar("%c", i);
 	i++;
 	_putchar('\n');
 }
